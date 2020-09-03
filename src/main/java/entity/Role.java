@@ -1,13 +1,13 @@
-package dao;
+package entity;
 
 public abstract class Role {
     protected int id;
     protected String name;
     protected String password;
 
-    public Role(){}
+    public Role() {
+    }
 
-    // ALT+INS get structure
     public Role(String name, String password) {
         this.name = name;
         this.password = password;
@@ -15,6 +15,10 @@ public abstract class Role {
 
     public int getId() {
         return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
