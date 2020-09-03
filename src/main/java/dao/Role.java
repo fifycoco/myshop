@@ -7,7 +7,7 @@ public abstract class Role {
 
     public Role(){}
 
-    // ALT+INS
+    // ALT+INS get structure
     public Role(String name, String password) {
         this.name = name;
         this.password = password;
